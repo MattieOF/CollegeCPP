@@ -1,0 +1,2 @@
+I think the code will not compile, due to the semi colon after the if statement. If statements do not have semi-colons, just curly brackets.
+In reality, the code does compile. Instead of causing a syntax error, the semi-colon simply ends the if statement early (the MSVC compiler gives a warning of an empty control statement). So, the text IS shown as the if statement has already ended before the statement. The curly braces are just a general scope that is not related to any control statements.

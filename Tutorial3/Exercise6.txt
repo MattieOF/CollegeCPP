@@ -1,0 +1,2 @@
+I think the code will compile, but the behavior will not be as expected. Despite the fact they are not, the program will still state that x and y are equal, as the programmer has accidentally used the assignment operator (=) instead of the equality operator (==). Therefore, the program is setting x equal to y and then testing if the value of x is true, and as any value that isn’t 0 is true, the expression evaluates to true, and the code is executed.
+As expected, when testing the code, “x and y are equal” is printed.
